@@ -42,5 +42,5 @@ Please support and credit the original creators when showcasing this project.
 
 ---
 
-### **Developer(s)**  
+### **Developer**  
 - **Isabella Marcucci Cassese** — HTML structure, CSS layout, grid positioning, form styling, UI adaptation from Figma.
