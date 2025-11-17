@@ -12,8 +12,8 @@ html{
     display: grid;
     width: 598px;
     height: 495px;
-    grid-template-rows: (5, 99px);
-    grid-template-columns: (8, 74px);
+    grid-template-rows: repeat(5, 99px);
+    grid-template-columns: repeat(8, 74px);
     font-family: "Inter", sans-serif; 
     color: #ffffff;
     background-color: #162AE3;
@@ -32,8 +32,8 @@ html{
 }
 
 .form1{
-    grid-row: 3/5;
-    grid-column: 4/8;
+    grid-row: 2/5;
+    grid-column: 2/8;
     width: 441px;
     height: 303px;
     z-index: 2;
@@ -135,3 +135,199 @@ html{
     margin-top: 40px;
 }
 
+/*Forms 2*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundForms2{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #AED3CF;
+
+}
+
+.contentForms2{
+    display: grid;
+    width: 960px;
+    height: 540px;
+    background-color: #F2EDE6;
+    border-radius: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    padding: 40px;
+}
+
+.imageForms2{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    width: 275px;
+    height: 420px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;  
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.imageForms2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mainContentForms2{
+    grid-row: 1/3;
+    grid-column: 2/3;
+    display: grid;
+}
+
+.mainTitle{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: fit-content;
+
+}
+
+h1{
+    font-family: Playfair Display;
+    color: #00054B;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.content{
+    display: grid;
+    width: 456px;
+    height: 267px;
+    grid-template-rows: repeat(4, 1fr); 
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 100px;
+       
+}
+.name2 input{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: fit-content;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    outline: none; 
+    color: #00024B;
+    opacity: 50%;
+    border: none;
+    border-bottom: solid 2px #00024B;
+    background: transparent;
+    margin-left: 10px;
+}
+.email2 input{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: fit-content;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    outline: none; 
+    color: #00024B;
+    opacity: 50%;
+    border: none;
+    border-bottom: solid 2px #00024B;
+    background: transparent;
+    margin-top: 52px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+
+
+}
+.message2 input{
+    grid-row: 3/4;
+    grid-column: 1/3;
+    height: fit-content;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    outline: none; 
+    color: #00024B;
+    opacity: 50%;
+    border: none;
+    border-bottom: solid 2px #00024B;
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+
+
+}
+.submit2{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    height: fit-content;
+}
+
+#submitButton2{
+    background-color: #00054B;
+    color: #FFFFFF;
+    width: 200px;
+    height: 38px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+.contact2{
+    grid-row: 1/2;
+    grid-column: 2/2;
+    height: fit-content;
+}
+
+#contactTitle{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00024B;
+}
+
+#contactInfo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00024B;
+    text-decoration: none;
+}
+
+#contactContent{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00024B;
+}
+
+.adress2{
+    grid-row: 2/3;
+    grid-column: 2/2;
+    height: fit-content;
+    margin-top: 52px;
+
+}
+.socials2{
+    grid-row: 4/5;
+    grid-column: 2/2;
+    margin-top: 40px;
+
+}
+.socials2 img{
+    height: 23px;
+    width: 23px;
+    margin: 0 6px;
+}
